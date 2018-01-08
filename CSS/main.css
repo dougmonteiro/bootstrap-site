@@ -1,0 +1,60 @@
+html {
+	font-family: 'Istok Web', Verdana, sans-serif;
+}
+
+body{
+    background-color: #6AC4DB;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Lora, Georgia, serif;
+    color: #1656D1;
+    font-weight: bold;
+}
+
+.jumbotron{
+    background-color: #DBDBDB;
+}
+.warning{
+    background-color: #1656D1;
+}
+.footer-bottom {
+    background-color: #3290C4;
+    min-height: 30px;
+    width: 100%;
+}
+.copyright {
+    color: #fff;
+    line-height: 30px;
+    min-height: 30px;
+    padding: 7px 0;
+}
+.design {
+    color: #fff;
+    line-height: 30px;
+    min-height: 30px;
+    padding: 7px 0;
+    text-align: right;
+}
+.design a{
+    color: #fff;
+    
+}
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    border: 0.25em solid black;
+}
+.iframe-container > *{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
